@@ -594,3 +594,11 @@ AS43190:
         - 193.239.117.59
         - 2001:7f8:1::A504:3190:1
         - 2001:7F8:13::A504:3190:1
+
+AS20766:
+    description: Gitoyen
+    import: AS-GITOYEN
+    export: AS-COLOCLUE
+    peerings:
+        - 80.249.210.195
+        - 2001:7f8:1::a502:766:1
