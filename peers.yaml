@@ -5,7 +5,7 @@ AS260:
    peerings:
        - 80.249.211.15
        - 2001:7f8:1::a500:260:1
-       
+
 AS1200:
     description: AMS-IX Office
     import: AS1200
@@ -15,12 +15,12 @@ AS1200:
         - 80.249.209.1
         - 2001:7f8:1:0:0:a500:1200:1
         - 2001:7f8:1:0:0:a500:1200:2
-    
+
 AS6777:
     description: AMS-IX Routeservers
     import: ANY
     export: AS-COLOCLUE
-    peerings: 
+    peerings:
         - 80.249.208.255
         - 80.249.209.0
         - 2001:7f8:1::a500:6777:1
@@ -102,7 +102,7 @@ AS21478:
     export: AS-COLOCLUE
     peerings:
         - 80.249.208.216
-        
+
 AS8282:
     description: Fido
     import: AS-FIDONET
@@ -139,7 +139,7 @@ AS48200:
     export: AS-COLOCLUE
     peerings:
         - 80.249.211.172
-        - 2001:7f8:1::A504:8200:1 
+        - 2001:7f8:1::A504:8200:1
 
 AS25091:
     description: IP-Max SA
@@ -328,7 +328,7 @@ AS19151:
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.58
-        - 2001:7f8:1::a501:9151:1 
+        - 2001:7f8:1::a501:9151:1
 
 AS2906:
     description: Netflix
@@ -337,7 +337,7 @@ AS2906:
     peerings:
         - 80.249.210.250
         - 80.249.211.250
-        - 2001:7f8:1::a500:2906:1 
+        - 2001:7f8:1::a500:2906:1
         - 2001:7f8:1::a500:2906:2
 
 AS251:
@@ -386,7 +386,7 @@ AS5524:
     export: AS-COLOCLUE
     peerings:
         - 80.249.209.104
-        - 2001:7f8:1::a500:5524:1 
+        - 2001:7f8:1::a500:5524:1
 
 AS16265:
     description: FiberRing Backbone
@@ -431,7 +431,7 @@ AS31477:
     peerings:
         - 193.239.116.132
         - 2001:7f8:13::a503:1477:1
-        - 2001:7f8:1::A503:1477:1 
+        - 2001:7f8:1::A503:1477:1
         - 80.249.209.90
 
 AS34968:
@@ -442,7 +442,7 @@ AS34968:
         - 80.249.209.81
         - 193.239.116.146
         - 2001:7f8:1::a503:4968:1
-        - 2001:7f8:13::a503:4968:1 
+        - 2001:7f8:13::a503:4968:1
 
 AS35332:
     description: Dataweb
